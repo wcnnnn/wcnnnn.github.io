@@ -13,7 +13,7 @@
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     </h3>
     {% if post.authors %}
-      <p class="archive__item-authors">{{ post.authors }}</p>
+      <p class="archive__item-authors">{% include highlight-authors.html authors=post.authors %}</p>
     {% endif %}
     {% if post.venue %}
       <p class="archive__item-venue"><i>{{ post.venue }}</i>{% if post.date %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>

@@ -1,0 +1,3 @@
+{% assign author_name = site.author.name | default: site.name | default: "Chuanning Wang" %}
+{% capture bold_name %}<strong><em>{{ author_name }}</em></strong>{% endcapture %}
+{{ include.authors | replace: author_name, bold_name }}

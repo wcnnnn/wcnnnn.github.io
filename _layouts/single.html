@@ -37,7 +37,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.collection == 'publications' %}
-          {% if page.authors %}<p class="page__authors">{{ page.authors }}</p>{% endif %}
+          {% if page.authors %}<p class="page__authors">{% include highlight-authors.html authors=page.authors %}</p>{% endif %}
           {% if page.venue %}<p class="page__venue"><i>{{ page.venue }}</i>{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>{% endif %}
           {% assign pub_teaser = page.header.teaser | default: page.teaser %}
           {% if pub_teaser %}
