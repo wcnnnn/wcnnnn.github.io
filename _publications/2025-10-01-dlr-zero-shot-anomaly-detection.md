@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-10-01-dlr-zero-shot-anomaly-detection
 excerpt: 'Proposes DLR, fusing CLIP, DINOv2, and SAM for zero-shot anomaly detection with 95.6% Image-AUROC on MVTec-AD using only 4.12M parameters.'
-date: 2025-10-01
+date: 2026-04-01
 venue: 'Neurocomputing'
 authors: 'Chuanning Wang, Zhiyong He, Yanzhao Zhou, Zhenxiong Gu, Lining Sun, Song Lin'
 header:

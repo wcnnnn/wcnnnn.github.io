@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-12-01-ladar-underwater-image-enhancement
 excerpt: 'Proposes LADAR, a language-adaptive underwater image enhancement framework integrating DSGA, LSG, and HCM to guide restoration with text semantics, outperforming SOTA on UIEB and EUVP.'
-date: 2025-12-01
+date: 2026-06-01
 venue: 'IEEE Transactions on Geoscience and Remote Sensing'
 authors: 'Chuanning Wang, Zhiyong He, Yi Guo, Yanzhao Zhou, Zhenxiong Gu, Song Lin'
 header:
