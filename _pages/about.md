@@ -28,9 +28,9 @@ Core courses: Control System Theory and Methods, Robotics Technology
 
 ## Selected Publications
 
-- **LADAR**: Language-Adaptive Dynamic Aqua Refinement for Underwater Image Enhancement — *IEEE TGRS* (CAS Q1, CCF-B)
-- **DELTA**: Dual-modal Evolving Latent Task Attention for CLIP-Based Class-Incremental Learning — *Knowledge-Based Systems* (Under Review)
-- **DLR**: Feature Disentanglement and Adaptive Patch Routing for Zero-Shot Anomaly Detection — *Neurocomputing* (Under Review)
+- **LADAR**: Language-Adaptive Dynamic Aqua Refinement for Underwater Image Enhancement — *IEEE TGRS*
+- **DELTA**: Dual-modal Evolving Latent Task Attention for CLIP-Based Class-Incremental Learning — *Knowledge-Based Systems*
+- **DLR**: Feature Disentanglement and Adaptive Patch Routing for Zero-Shot Anomaly Detection — *Neurocomputing*
 
 See the full list on the [Publications](/publications/) page.
 

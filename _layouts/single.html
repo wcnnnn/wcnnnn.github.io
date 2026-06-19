@@ -36,6 +36,21 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' %}
+          {% if page.authors %}<p class="page__authors">{{ page.authors }}</p>{% endif %}
+          {% if page.venue %}<p class="page__venue"><i>{{ page.venue }}</i>{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</p>{% endif %}
+          {% assign pub_teaser = page.header.teaser | default: page.teaser %}
+          {% if pub_teaser %}
+            <div class="publication-teaser publication-teaser--detail">
+              <img src=
+                {% if pub_teaser contains "://" %}
+                  "{{ pub_teaser }}"
+                {% else %}
+                  "{{ pub_teaser | prepend: "/images/" | prepend: base_path }}"
+                {% endif %}
+                alt="{{ page.title | strip_html }}">
+            </div>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -47,6 +62,7 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% unless page.collection == 'publications' %}
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
@@ -71,6 +87,11 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% endif %}
+        {% endunless %}
+
+        {% if page.collection == 'publications' and page.paperurl %}
+          <p class="page__paper-link"><a href="{{ page.paperurl }}">Paper</a></p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
