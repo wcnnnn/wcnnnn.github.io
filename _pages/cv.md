@@ -11,54 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **M.S.** in Control Science and Engineering, Soochow University, 2025 — Present
+  * Core courses: Intelligent Robotics, Matrix Theory, Frontiers of Deep Learning
+* **B.S.** in Robotics Engineering, Chongqing University of Posts and Telecommunications, 2021 — 2025
+  * Core courses: Control System Theory and Methods, Robotics Technology
 
-Work experience
+Research Interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Computer vision, deep learning, and industrial defect detection
+* Underwater image enhancement and vision-language fusion
+* Zero-shot anomaly detection with vision foundation models
+* Class-incremental learning and few-shot segmentation
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Patents
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* **RGB-D Salient Object Detection Method Based on Inference Memory Framework**  
+  Inventors: Chuanning Wang, Song Lin, Ren Zhang, Sen Qian, Zhenxiong Gu, Yanzhao Zhou  
+  Application No. 2026103377498 · Filed: 2026-03-19 · Accepted by CNIPA
+
+Honors & Awards
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* First Prize, 2024 APMCM Asia-Pacific Mathematical Contest in Modeling
+* First Prize, 2024 Huashu Cup Mathematical Contest in Modeling
+* Second Prize, 2024 Shuv Cup Mathematical Contest in Modeling
+* Third Prize, 2024 Central China Cup Mathematical Contest in Modeling
+
+Contact
 ======
-* Currently signed in to 43 different slack teams
+* Email: [15923261304@163.com](mailto:15923261304@163.com)
+* GitHub: [github.com/wcnnnn](https://github.com/wcnnnn)
