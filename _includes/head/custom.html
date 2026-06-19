@@ -77,45 +77,52 @@
     margin-bottom: 0.4rem;
   }
 
-  /* Gap between sidebar (photo + bio) and main About section */
+  /* Gap between sidebar and main content */
   @media screen and (min-width: 1024px) {
     #main .sidebar.sticky {
-      width: 300px;
-      max-width: 300px;
-      padding-right: 36px;
+      width: 260px;
+      max-width: 260px;
+      padding-right: 12px;
       box-sizing: border-box;
     }
 
     #main > .page {
-      margin-left: 336px !important;
+      margin-left: 272px !important;
       width: auto;
-      max-width: calc(100% - 372px);
+      max-width: calc(100% - 300px);
     }
 
     .sidebar .author__avatar img {
-      max-width: 260px !important;
-      width: 260px !important;
-      height: 260px !important;
+      max-width: 240px !important;
+      width: 240px !important;
+      height: 240px !important;
       margin: 0;
     }
   }
 
   @media screen and (min-width: 1280px) {
     #main .sidebar.sticky {
-      width: 320px;
-      max-width: 320px;
-      padding-right: 48px;
+      width: 270px;
+      max-width: 270px;
+      padding-right: 16px;
     }
 
     #main > .page {
-      margin-left: 368px !important;
-      max-width: 860px;
+      margin-left: 286px !important;
+      max-width: 980px;
     }
   }
 
-  /* Main content: justified paragraphs */
+  /* Hide site footer */
+  .page__footer {
+    display: none !important;
+  }
+
+  /* Main content: justified text */
   .page__content p,
-  .page__content dd {
+  .page__content dd,
+  .page__content .archive__item-excerpt,
+  .archive__item-excerpt {
     text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
@@ -136,6 +143,12 @@
   .page__content ul,
   .page__content ol {
     text-align: left;
+  }
+
+  .page__content.archive {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
   }
 
   /* Publications list */
