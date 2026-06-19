@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
-site_theme               : "mint"
-title                    : "Chuanning Wang / 王传宁"
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Chuanning Wang"
 title_separator          : "-"
 name                     : &name "Chuanning Wang"
-description              : &description "王传宁的个人学术主页 — 苏州大学控制科学与工程硕士研究生，研究方向为计算机视觉与深度学习。"
+description              : &description "Academic homepage of Chuanning Wang — M.S. student in Control Science and Engineering at Soochow University."
 url                      : https://wcnnnn.github.io
 baseurl                  : ""
 repository               : "wcnnnn/wcnnnn.github.io"
@@ -23,11 +23,11 @@ repository               : "wcnnnn/wcnnnn.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "王传宁"
+  name             : "Chuanning Wang"
   pronouns         :
-  bio              : "苏州大学控制科学与工程硕士研究生，研究方向：计算机视觉、深度学习与工业缺陷检测。"
-  location         : "苏州，中国"
-  employer         : "苏州大学"
+  bio              : "M.S. student in Control Science and Engineering at Soochow University."
+  location         : "Suzhou, China"
+  employer         : "Soochow University"
   uri              :
   email            : "15923261304@163.com"
 

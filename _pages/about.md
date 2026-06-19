@@ -1,53 +1,53 @@
 ---
 permalink: /
-title: "王传宁 · Chuanning Wang"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-我是**王传宁**（Chuanning Wang），苏州大学控制科学与工程专业硕士研究生，研究方向为**计算机视觉**、**深度学习**与**工业缺陷检测**。本科毕业于重庆邮电大学机器人工程专业。
+I am **Chuanning Wang**, an M.S. student in Control Science and Engineering at [Soochow University](https://www.suda.edu.cn/). My research focuses on **computer vision**, **deep learning**, and **industrial defect detection**. I received my B.S. in Robotics Engineering from Chongqing University of Posts and Telecommunications.
 
-## 教育背景
+## Education
 
-**苏州大学** · 控制科学与工程 · 硕士  
-*2025.09 — 至今*  
-专业核心课程：智能机器人、矩阵论、深度学习前沿
+**Soochow University** — M.S. in Control Science and Engineering  
+*Sep 2025 — Present*  
+Core courses: Intelligent Robotics, Matrix Theory, Frontiers of Deep Learning
 
-**重庆邮电大学** · 机器人工程 · 学士  
-*2021.09 — 2025.06*  
-专业核心课程：控制系统理论与方法、机器人技术
+**Chongqing University of Posts and Telecommunications** — B.S. in Robotics Engineering  
+*Sep 2021 — Jun 2025*  
+Core courses: Control System Theory and Methods, Robotics Technology
 
-## 研究兴趣
+## Research Interests
 
-- 水下/低质量图像增强与多模态融合
-- 基于视觉基础模型（CLIP、DINOv2、SAM）的异常检测与分割
-- 类增量学习与小样本工业缺陷检测
-- 轻量级、高效率的工业视觉算法
+- Underwater and low-quality image enhancement with vision-language fusion
+- Zero-shot anomaly detection with vision foundation models (CLIP, DINOv2, SAM)
+- Class-incremental learning and few-shot industrial defect segmentation
+- Lightweight and efficient algorithms for industrial vision
 
-## 代表性论文
+## Selected Publications
 
-- **LADAR**: Language-Adaptive Dynamic Aqua Refinement for Underwater Image Enhancement — *IEEE TGRS*（中科院一区 TOP，CCF-B）
-- **DELTA**: Dual-modal Evolving Latent Task Attention for CLIP-Based Class-Incremental Learning — *Knowledge-Based Systems*（Under Review）
-- **DLR**: Feature Disentanglement and Adaptive Patch Routing for Zero-Shot Anomaly Detection — *Neurocomputing*（Under Review）
+- **LADAR**: Language-Adaptive Dynamic Aqua Refinement for Underwater Image Enhancement — *IEEE TGRS* (CAS Q1, CCF-B)
+- **DELTA**: Dual-modal Evolving Latent Task Attention for CLIP-Based Class-Incremental Learning — *Knowledge-Based Systems* (Under Review)
+- **DLR**: Feature Disentanglement and Adaptive Patch Routing for Zero-Shot Anomaly Detection — *Neurocomputing* (Under Review)
 
-完整列表见 [Publications](/publications/)。
+See the full list on the [Publications](/publications/) page.
 
-## 专利
+## Patents
 
-- **一种基于推理记忆框架的 RGB-D 显著性目标检测方法**  
-  发明人：王传宁、林嵩、张忍、钱森、顾振雄、周延钊  
-  申请号：2026103377498 · 申请日：2026.03.19 · 国家知识产权局已受理
+- **RGB-D Salient Object Detection Method Based on Inference Memory Framework**  
+  Inventors: Chuanning Wang, Song Lin, Ren Zhang, Sen Qian, Zhenxiong Gu, Yanzhao Zhou  
+  Application No. 2026103377498 · Filed: Mar 19, 2026 · Accepted by CNIPA
 
-## 获奖经历
+## Honors & Awards
 
-- 2024 APMCM 亚太杯数学建模竞赛 **一等奖**
-- 2024 华数杯数学建模竞赛 **一等奖**
-- 2024 数维杯数学建模竞赛 二等奖
-- 2024 华中杯数学建模竞赛 三等奖
+- First Prize, 2024 APMCM Asia-Pacific Mathematical Contest in Modeling
+- First Prize, 2024 Huashu Cup Mathematical Contest in Modeling
+- Second Prize, 2024 Shuv Cup Mathematical Contest in Modeling
+- Third Prize, 2024 Central China Cup Mathematical Contest in Modeling
 
-## 联系方式
+## Contact
 
 - Email: [15923261304@163.com](mailto:15923261304@163.com)
 - GitHub: [wcnnnn](https://github.com/wcnnnn)
